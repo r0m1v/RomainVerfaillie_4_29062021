@@ -11,6 +11,11 @@
     font-style: normal
 }
 
+@font-face {
+    font-family: "imfellenglish";
+    src: url("../fonts/IMFellEnglish-Regular.ttf");
+}
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
