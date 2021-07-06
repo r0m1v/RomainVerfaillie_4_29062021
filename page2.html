@@ -43,11 +43,6 @@
           <div class="container bloc-sm">
             <nav class="navbar row">
               <div class="navbar-header">
-                <div class="keywords" style="color: #cccccc; font-size: 1px">
-                  Agence web à paris, stratégie web, web design, illustrations,
-                  design de site web, site web, web, internet, site internet,
-                  site
-                </div>
                 <a class="navbar-brand" href="index.html"
                   ><img
                     src="img/logo_title.png"
@@ -55,11 +50,6 @@
                     height="40"
                   /><span class="font-title">La chouette agence</span></a
                 >
-                <div class="keywords" style="color: #cccccc; font-size: 1px">
-                  Agence web à paris, stratégie web, web design, illustrations,
-                  design de site web, site web, web, internet, site internet,
-                  site
-                </div>
                 <button
                   id="nav-toggle"
                   type="button"
@@ -122,51 +112,46 @@
           <div class="container bloc-lg">
             <div class="row">
               <div class="col-sm-6">
-                <form
-                  id="form_1"
-                  novalidate
-                  success-msg="Your message has been sent."
-                  fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-                >
+                <form>
                   <div class="form-group">
-                    <label>
-                      <span class="text_form">Nom</span><br />
-                      <input id="name" class="form-control" required />
-                    </label>
+                    <label for="name" class="text_form"> Nom </label>
+                    <br />
+                    <input id="name" class="form-control" required />
                   </div>
                   <div class="form-group">
-                    <label>
-						<span class="text_form">Adresse email</span><br />
-                      <input
-                        id="email"
-                        class="form-control"
-                        type="email"
-                        required
-                      />
-                    </label>
+                    <label class="text_form"> Adresse email </label>
+                    <br />
+                    <input
+                      id="email"
+                      class="form-control"
+                      type="email"
+                      required
+                    />
                   </div>
                   <div class="form-group">
-                    <label>
-						<span class="text_form">Comment nous avez-vous connu ?</span><br />
-                      <select name="choix" size="1">
-                        <option>Internet</option>
-                        <option>Reseaux sociaux</option>
-                        <option>Connaissance</option>
-                      </select>
+                    <label class="text_form">
+                      Comment nous avez-vous connu ?
                     </label>
+                    <br />
+                    <select name="choix" size="1">
+                      <option>Internet</option>
+                      <option>Reseaux sociaux</option>
+                      <option>Connaissance</option>
+                    </select>
                   </div>
                   <div class="form-group">
-                    <label>
-						<span class="text_form">Brief de votre projet (Ajoutez autant de détails que
-                      nécessaire)</span><br />
-                      <textarea
-                        id="message"
-                        class="form-control"
-                        rows="4"
-                        cols="50"
-                        required
-                      ></textarea>
+                    <label class="text_form">
+                      Brief de votre projet (Ajoutez autant de détails que
+                      nécessaire)
                     </label>
+                    <br />
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      rows="4"
+                      cols="50"
+                      required
+                    ></textarea>
                   </div>
                   <button
                     class="
