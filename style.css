@@ -60,6 +60,18 @@ select{
     color: black;
 }
 
+.partenaire{
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+#links_footer{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
 /* Fin CSS modifié */
 
 a,
